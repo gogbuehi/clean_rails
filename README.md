@@ -17,8 +17,8 @@ Command-line steps:
  5.     `gem install rails`
  6.     `rails new .`
 
-FOLLOW THESE STEPS TO START RAILS WITH NO DB
---------------------------------------------
+Start Rails with a DB
+---------------------
  - Remove database adapter gems from your Gemfile (mysql2, sqlite3, etc.)
  - Change your config/application.rb in the following way:
  -- Remove require 'rails/all line and require frameworks you want to use, for example:
@@ -30,15 +30,15 @@ FOLLOW THESE STEPS TO START RAILS WITH NO DB
 
  -- Note: I put these 4 in mine; Got the solution from here http://stackoverflow.com/questions/19078044/disable-activerecord-for-rails-4 (Step 1 and 2 were all I needed)
 
-STARTING RAILS
+Starting Rails
 --------------
-USE THE FOLLOWING COMMAND WITHIN THE VIRTUAL MACHINE IN `/vagrant/`:
+Use the following command within the virtual machine in `/vagrant/`:
  - `rails s -b 0.0.0.0 -p 3001`
 
-GO TO THE FOLLOWING URL IN A BROWSER:
+Go to the following URL in a browser:
 http://localhost:4513/
 
-TODO ITEMS
+TODO Items
 ==========
 
  - Instructions on connecting to a MySQL DB
