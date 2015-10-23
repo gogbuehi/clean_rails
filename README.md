@@ -17,7 +17,7 @@ Command-line steps:
  5.     `gem install rails`
  6.     `rails new .`
 
-Start Rails with a DB
+Start Rails without a DB
 ---------------------
  - Remove database adapter gems from your Gemfile (mysql2, sqlite3, etc.)
  - Change your config/application.rb in the following way:
