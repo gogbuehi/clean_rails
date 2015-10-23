@@ -52,7 +52,7 @@ Configure Rails with a MySQL DB
 Example `database.yml`
 ----------------------
 
-`
+```
 default: &default
   adapter: mysql2
   encoding: utf8
@@ -95,7 +95,7 @@ production:
   password: ENV['DB_PASS']
   host: ENV['DATABASE_URL']
   port: 3306
-`
+```
 
  - Ensure your database is up and running before starting rails
 
